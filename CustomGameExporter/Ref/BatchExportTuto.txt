@@ -1,0 +1,13 @@
+HOW TO USE:
+
+- Set your Maya project correctly.
+
+- Create a custom folder within the project directory.
+
+- Copy all the Maya files you want to batch into the custom folder you just created.
+
+- Click "Launch Batch" and select the custom folder.
+
+- Enjoy your coffee while the batch process runs.
+
+- Once finished, Maya will re-open with a blank scene. All processed scenes will be listed in the Command Editor.
