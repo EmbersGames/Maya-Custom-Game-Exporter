@@ -124,7 +124,7 @@ class UISetup_GameExporterCustom(MayaQWidgetDockableMixin, QtWidgets.QDialog):
             self.Layout_ExportZone_Export.addWidget(self.Button_Debug)
         # self.Button_Settings = QPushButton("Settings")
         # self.Layout_ExportZone_Export.addWidget(self.Button_Settings)
-        self.Button_Export = QPushButton("Export - (no layers)")
+        self.Button_Export = QPushButton("Export")
         self.Button_Export.setStyleSheet(f"background-color:{ui.orange_dark}")
         self.Layout_ExportZone_Export.addWidget(self.Button_Export)
 
@@ -159,7 +159,7 @@ class UISetup_GameExporterCustom(MayaQWidgetDockableMixin, QtWidgets.QDialog):
         Layout_AnimLayer.addWidget(self.Button_Refresh_Layers)
 
         Layout_AnimLayer_02 = QVBoxLayout(Widget_Layers_Export)
-        self.Layers_Export_Button = QPushButton("Export with layers")
+        self.Layers_Export_Button = QPushButton("Export with layer settings")
         self.Layers_Export_Button.setStyleSheet(f"background-color:{ui.orange_dark}")
         Layout_AnimLayer_02.addWidget(self.Layers_Export_Button)
 
