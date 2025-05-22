@@ -73,12 +73,13 @@ class AddExportSetRow:
     
 
     def list_export_sets(self):
+
         sets = cmds.ls(sets=True)
 
-        specific_word = "deformer"
-        setlist = [s for s in sets if specific_word in s]
+        # specific_word = "deformer"
+        # setlist = [s for s in sets if specific_word in s]
 
-        return setlist
+        return sets
     
     def add_row_above(self, Layout, List, CurrentRow):
         Index = Layout.indexOf(CurrentRow)
