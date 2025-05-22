@@ -15,6 +15,7 @@ Feel free to add this command in a shelf button for easier access.
 
 # Functionalities
 ## Anim tab
+![AnimTab](/ReadMeImage/I_AnimTab.png)
 The anim tab is the main tab of the exporter.\
 It replicates the core functionalities of the original GameExporter, with one major difference:
 
@@ -44,12 +45,14 @@ A custom dialog window is located at the bottom of the exporter.\
 It displays various messages, such as save/load warnings, export overwrites, and other important information.
 
 ## Anim layers tab
+![AnimTab](/ReadMeImage/I_AnimLayerTab.png)
 This tab allows you to export your animation clips with specific animation layers.\
 \
 For each animation clip created in the *"Anim"* tab, you can specify which animation layers should be active during export.\
 When the export is triggered, the exporter will automatically mute any unchecked animation layers.
 
 ## Batch export tab
+![AnimTab](/ReadMeImage/I_BatchTab.png)
 This tab allows you to export multiple scenes in a batch process.\
 It will export all animation clips from every scene located in a specified folder.\
 \
