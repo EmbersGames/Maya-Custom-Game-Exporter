@@ -46,7 +46,6 @@ It displays various messages, such as save/load warnings, export overwrites, and
 
 ## Anim layers tab
 <img src="/ReadMeImage/I_AnimLayerTab.png" width="500">
-![AnimTab](/ReadMeImage/I_AnimLayerTab.png)
 This tab allows you to export your animation clips with specific animation layers.\
 \
 For each animation clip created in the *"Anim"* tab, you can specify which animation layers should be active during export.\
